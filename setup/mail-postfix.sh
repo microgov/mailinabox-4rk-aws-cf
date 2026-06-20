@@ -324,7 +324,6 @@ if [[ -n "${SMTP_RELAY_ENDPOINT:-}" && -n "${SMTP_RELAY_PORT:-}" && \
 	postmap hash:/etc/postfix/sasl_passwd
 	chown root:root /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
 	chmod 0600 /etc/postfix/sasl_passwd /etc/postfix/sasl_passwd.db
-	postconf -e 'smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt'
 fi
 
 # Restart services
