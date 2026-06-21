@@ -390,7 +390,7 @@ EOF
 # and calendar apps are the extensions we really care about here.
 hide_output sudo -u www-data php"$PHP_VER" /usr/local/lib/owncloud/console.php app:disable firstrunwizard
 hide_output sudo -u www-data php"$PHP_VER" /usr/local/lib/owncloud/console.php app:enable user_external
-hide_output sudo -u www-data php"$PHP_VER" /usr/local/lib/owncloud/console.php app:enable contacts
+hide_output sudo -u www-data php"$PHP_VER" -d memory_limit=512M /usr/local/lib/owncloud/console.php app:enable contacts
 hide_output sudo -u www-data php"$PHP_VER" /usr/local/lib/owncloud/console.php app:enable calendar
 
 # When upgrading, run the upgrade script again now that apps are enabled. It seems like
