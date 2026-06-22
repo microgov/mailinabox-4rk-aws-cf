@@ -1,5 +1,4 @@
-AG
-MicroGoV llc
+Mail-in-a-Box ::: fork - mailinabox-4rk-aws-cf ::: branch - awscfai
 
 Mail in a box for AWS Cloud Formation a fork of Mail-In-A-Box
 requires companion template.yaml file to launch stack
