@@ -41,7 +41,7 @@ contacts_hash=c4e3f2183a0088b829f8aa1b3af1f87c9a4c46a2
 
 # Always ensure the versions are supported, see https://apps.nextcloud.com/apps/calendar
 calendar_ver=4.7.6
-calendar_hash=cf8e68e7d945ee71933f5bb71a969faf152da55c
+calendar_hash=a995bca4effeecb2cab25f3bbeac9bfe05fee766
 
 # Always ensure the versions are supported, see https://apps.nextcloud.com/apps/user_external
 user_external_ver=3.3.0
