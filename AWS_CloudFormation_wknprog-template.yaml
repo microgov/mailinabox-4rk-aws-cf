@@ -11,7 +11,11 @@
 # tag=v76-awscfai-alfa2.02  and/or latest or perhap just use  tag=latest
 # added meidlingers miab fork commits to main-postfix.sh and nextcolud.sh
 # - changes to backup.py were already in miab v76 the source of my fork
-# as suggested in forum -bumped contacts to v3.5.4 in my miab fork
+# as suggested in forum -bumped contacts to v3.5.4 in my miab fork;
+# NOT.  I should have read more.
+# Fix contacts/calendar download as source archive #2588
+# Solution found here:
+# https://github.com/mail-in-a-box/mailinabox/pull/2588/commits/192d93e1c74a465c043bc2aae88316cb693fcca7
 # incorporated some Gemini AI suggestions in both miab fork and this cf template
 # passes linting with codium 2026 06 23
 # as of June 22 2026 - still not working - cloud formation fails to complete stack
@@ -51,7 +55,7 @@ Parameters:
     Default: box
   MailInABoxVersion:
     Type: String
-    Default: v76-awscfai-alfa2.02
+    Default: v76-awscfai-alfa2.03
   MailInABoxCloneUrl:
     Type: String
     Default: https://github.com/microgov/mailinabox-4rk-aws-cf
