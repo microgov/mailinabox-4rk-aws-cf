@@ -19,6 +19,10 @@
 # incorporated some Gemini AI suggestions in both miab fork and this cf template
 # passes linting with codium 2026 06 23
 # as of June 22 2026 - still not working - cloud formation fails to complete stack
+# My-maiBv76-mailserver
+# 2026-06-23 10:34:49 UTC-0700
+# UPDATE_COMPLETE
+# it worked, wow! - as of 2026 06 24
 
 Description: Deploy MaiB on EC2. installs restore from S3 Backups supported with this template
 Parameters:
