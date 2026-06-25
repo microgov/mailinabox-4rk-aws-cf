@@ -80,14 +80,14 @@ Parameters:
     Description: Prefix where backups that are to be restored are located in S3 bucket. Leave empty for a fresh install
     Default: ''
     Type: String
-  TestSender:
-    Description: Define your pre-verified testing addresses. Leave empty if not using SES Relay
-    Default: ''
-    Type: String
-  TestRecipient:
-    Description: Define your pre-verified testing addresses. Leave empty if not using SES Relay
-    Default: ''
-    Type: String
+  # TestSender:
+  #   Description: Define your pre-verified testing addresses. Leave empty if not using SES Relay
+  #   Default: ''
+  #   Type: String
+  # TestRecipient:
+  #   Description: Define your pre-verified testing addresses. Leave empty if not using SES Relay
+  #   Default: ''
+  #   Type: String
   SesRelay:
     Description: Set to 'false' if you do not want to configure SES to relay your Emails
     Type: String
